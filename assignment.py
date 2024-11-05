@@ -25,7 +25,8 @@ subtotal = base_cost + TOPPING_COSTS[toppings]
 tax = subtotal * HST_RATE
 total = subtotal + tax
 
+print("Your selected size was: ",size)
+print("Number of toppings: ",toppings)
 print("Subtotal: $",subtotal)
 print("Tax: $",tax)
 print("Total: $",total)
-
